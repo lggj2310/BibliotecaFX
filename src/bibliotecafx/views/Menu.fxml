@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bibliotecafx.controllers.MenuController">
+   <children>
+      <ImageView fitHeight="114.0" fitWidth="137.0" layoutX="243.0" layoutY="200.0" onMouseClicked="#ClikedUsers" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/usuario-la-forma-masculina-en-un-circulo--ios-7-simbolo-interfaz_318-35357.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="171.0" layoutX="423.0" layoutY="33.0" onMouseClicked="#ClickedBooks" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/image_gallery.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="106.0" fitWidth="146.0" layoutX="32.0" layoutY="210.0" onMouseClicked="#ClikedAuthors" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/524.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="159.0" layoutX="423.0" layoutY="200.0" onMouseClicked="#ClikedCopies" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/libros-1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="121.0" fitWidth="159.0" layoutX="44.0" layoutY="33.0" onMouseClicked="#ClikedLoans" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../resources/images/lectura-leer-libros.jpg" />
+         </image>
+      </ImageView>
+      <Label layoutX="272.0" layoutY="322.0" text="Usuarios">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="58.0" layoutY="165.0" text="Prestamos">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="463.0" layoutY="161.0" text="Libros">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="67.0" layoutY="322.0" text="Autores">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="474.0" layoutY="323.0" text="Copias">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <Label layoutX="225.0" layoutY="33.0" text="Biblioteca">
+         <font>
+            <Font size="35.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

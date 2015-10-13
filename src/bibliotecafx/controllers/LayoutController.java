@@ -3,9 +3,9 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
+package bibliotecafx.controllers;
 
-package bibliotecafx;
-
+import bibliotecafx.MainApp;
 import java.net.URL;
 import java.util.ResourceBundle;
 import javafx.fxml.Initializable;
@@ -13,10 +13,15 @@ import javafx.fxml.Initializable;
 /**
  * FXML Controller class
  *
- * @author informatica
+ * @author Eddi
  */
-public class FXMLController implements Initializable {
+public class LayoutController implements Initializable {
 
+    private MainApp mainApp;
+    
+     public void setMainApp(MainApp mainApp) {
+        this.mainApp = mainApp;
+    }
     /**
      * Initializes the controller class.
      */
@@ -24,9 +29,5 @@ public class FXMLController implements Initializable {
     public void initialize(URL url, ResourceBundle rb) {
         // TODO
     }    
-
-    void setMainApp(MainApp aThis) {
-        throw new UnsupportedOperationException("Not supported yet."); //To change body of generated methods, choose Tools | Templates.
-    }
     
 }

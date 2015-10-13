@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="387.0" prefWidth="534.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bibliotecafx.controllers.AutorController">
+   <children>
+      <TableView fx:id="tbvAuthors" layoutY="-3.0" prefHeight="368.0" prefWidth="559.0" AnchorPane.bottomAnchor="30.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+        <columns>
+          <TableColumn fx:id="tbcId" prefWidth="169.0" text="Id" />
+            <TableColumn fx:id="tbcName" prefWidth="396.0" text="Nombre" />
+        </columns>
+      </TableView>
+      <Button layoutX="433.0" layoutY="370.0" mnemonicParsing="false" onAction="#ClikedMain" prefHeight="25.0" prefWidth="81.0" text="Cancelar" AnchorPane.bottomAnchor="3.0" />
+      <Button layoutX="14.0" layoutY="370.0" mnemonicParsing="false" onAction="#addAuthor" prefHeight="25.0" prefWidth="68.0" text="Agregar" AnchorPane.bottomAnchor="3.0" />
+      <Button layoutX="88.0" layoutY="370.0" mnemonicParsing="false" onAction="#editAuthor" prefHeight="25.0" prefWidth="68.0" text="Editar" AnchorPane.bottomAnchor="3.0" />
+      <Button layoutX="171.0" layoutY="370.0" mnemonicParsing="false" onAction="#deleteAuthor" prefHeight="0.0" prefWidth="68.0" text="Borrar" AnchorPane.bottomAnchor="3.0" />
+   </children>
+</AnchorPane>
